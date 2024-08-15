@@ -1,0 +1,33 @@
+.nav{
+    height: calc(3rem + 1.5rem);
+}
+.nav-link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.875rem;
+    @apply text-title;
+    @apply font-medium;
+    transition: .3s;
+}
+.nav-icon{
+    display: none;
+}
+
+.active-link,.nav-link:hover{
+    @apply text-dark-title
+}
+.show-menu{
+    bottom: 0;
+    transition: .3s;
+}
+.hide-menu{
+    bottom: -100%;
+    transition: .5s;
+}
+.header{
+    height: fit-content;
+}
+.scroll-header{
+    box-shadow: 0 -1px 4px rgba(0, 0, 0,0.15);
+}

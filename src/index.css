@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components{
+    *{
+        box-sizing: border-box;
+    }
+    html{
+        scroll-behavior: smooth;
+    }
+    body,button,input,textarea{
+        @apply font-poppins;
+        @apply text-sm;
+
+    }
+    body{
+        @apply bg-body;
+        @apply text-p;
+        @apply mt-0;
+        @apply ml-0;
+        @apply mb-12; 
+    }
+    h1,h2,h3{
+        @apply text-title;
+        @apply font-semibold;
+    }
+    ul{
+        @apply list-none;
+    }
+    a{
+        @apply no-underline;
+    }
+    button{
+        @apply cursor-pointer;
+        @apply border-none;
+        @apply outline-none;
+    }
+    img{
+        @apply max-w-[100%];
+        @apply h-auto
+    }
+    .section{
+        padding: 6rem 0 2rem;
+    }
+    .section-title{
+        @apply text-4xl;
+        @apply text-title;
+    }
+    .section-subtitle{
+        @apply block;
+        @apply text-sm;
+        @apply mb-16;
+        @apply mt-2;
+    }
+    .section-title,.section-subtitle{
+        @apply text-center;
+    }
+    .container{
+        @apply max-w-[968px];
+        @apply mx-auto
+    }
+    .grid-one{
+        @apply grid;
+        @apply gap-6
+    }
+    .button{
+        @apply inline-block;
+        @apply bg-title;
+        @apply text-container;
+        padding: 1.25rem 2rem;
+        @apply rounded-2xl;
+        @apply font-medium;
+    }
+    .button:hover{
+        @apply bg-dark-title;
+    }
+    .button-icon{
+        @apply ml-2;
+    }
+    .button-flex{
+        @apply inline-flex;
+        @apply items-center
+    }
+
+}

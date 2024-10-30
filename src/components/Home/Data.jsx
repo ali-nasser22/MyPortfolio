@@ -53,8 +53,8 @@ const Data = () => {
                   ></path>
                 </svg>
     </h1>
-    <h3 className="home-subtitle">FrontEnd Developer</h3>
-    <p className="home-description">I’m a Front End Developer and a student, focused on crafting responsive and visually appealing web interfaces. With skills in HTML, CSS, and JavaScript, I’m dedicated to continuous learning and applying the latest web technologies to deliver effective solutions.</p>
+    <h3 className="home-subtitle">Full-Stack Developer</h3>
+    <p className="home-description">I’m a Full-Stack Developer and a student, focused on crafting responsive and visually appealing web interfaces. With skills in HTML, CSS, and JavaScript, I’m dedicated to continuous learning and applying the latest web technologies to deliver effective solutions.</p>
     <a href="#contact" className="button button-flex">Say Hello
     <svg
                   className="button-icon"

@@ -11,7 +11,7 @@ const Backend = () => {
 
             <div>
                 <h3 className="skills-name">PHP</h3>
-                <span className="skills-level">Basic</span>
+                <span className="skills-level">intermediate</span>
             </div>
             </div>
             <div className="skills-data">
@@ -53,7 +53,7 @@ const Backend = () => {
 
             <div>
                 <h3 className="skills-name">Laravel</h3>
-                <span className="skills-level">Basic</span>
+                <span className="skills-level">intermediate</span>
             </div>
             </div>
         </div>

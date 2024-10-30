@@ -16,13 +16,13 @@ const Services = () => {
             <div className="services-content">
                 <div>
                 <i className="uil uil-arrow services-icon"></i>
-                <h3 className="services-title">Frontend <br/> Developer</h3>
+                <h3 className="services-title">Frontend <br/> Development</h3>
                 </div>
                 <span className="services-button" onClick={()=>toggleTab(1)}>View More <i className="uil uil-arrow-right services-button-icon"></i></span>
                 <div className={toggleState === 1 ? 'services_modal active-modal':"services_modal"}>
                     <div className="services-modal-content">
                         <i className="uil uil-times services-modal-close" onClick={()=>toggleTab(0)}></i>
-                        <h3 className="services-modal-title">Frontend Developer</h3>
+                        <h3 className="services-modal-title">Frontend Development</h3>
                         <p className="services-modal-description">Services provided with quality and dedication to clients and companies.</p>
                         <ul className="services-modal-services grid-one">
                             <li className="services-modal-service">
@@ -52,7 +52,7 @@ const Services = () => {
             <div className="services-content">
                 <div>
                 <i className="uil uil-edit services-icon"></i>
-                <h3 className="services-title">UI/Ux <br/>Designer</h3>
+                <h3 className="services-title">UI/Ux <br/>Design</h3>
                 </div>
                 <span className="services-button" onClick={()=>toggleTab(2)}>View More <i className="uil uil-arrow-right services-button-icon"></i></span>
                 <div className={toggleState === 2 ? 'services_modal active-modal':"services_modal"}>
@@ -88,13 +88,13 @@ const Services = () => {
             <div className="services-content">
                 <div>
                 <i className="uil uil-brackets-curly services-icon"></i>
-                <h3 className="services-title">Backend <br/> Developer</h3>
+                <h3 className="services-title">Backend <br/> Development</h3>
                 </div>
                 <span className="services-button" onClick={()=>toggleTab(3)}>View More <i className="uil uil-arrow-right services-button-icon"></i></span>
                 <div className={toggleState === 3 ? 'services_modal active-modal':"services_modal"}>
                     <div className="services-modal-content">
                         <i className="uil uil-times services-modal-close" onClick={()=>toggleTab(0)}></i>
-                        <h3 className="services-modal-title">Backend Developer</h3>
+                        <h3 className="services-modal-title">Backend Development</h3>
                         <p className="services-modal-description">Services provided with quality and dedication to clients and companies.</p>
                         <ul className="services-modal-services grid-one">
                             <li className="services-modal-service">
